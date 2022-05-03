@@ -1,0 +1,75 @@
+de<iostream>
+using namespace std;
+int main()
+{
+	
+	// Deðiþken isimlendirme kurallarý
+	// -Deðiþkenler sayý ile baþlayamaz.
+	// -Deðiþkenlerde boþluk kullanýlamaz.
+	// -Deðiþkenlerde "_" dýþýnda özek karakterler kullanýlamaz.
+	// -Deðiþkenlerde Türkçe karakter tavsye edilmez.	
+	// -Programlama dilinin anahtar kelimeleri deðiþken olarak kullanýlamaz.
+	
+	
+	
+	//deðiþkenler ve veri türleri	
+	// tam sayý
+
+
+
+	//kýsa tam sayý
+
+	short s1;
+	s1 = 12500; 	
+
+	//normal tam sayýlar	
+	int s2;
+	s2 = 1123123;
+
+	//uzun tam sayý
+	long s3;
+	s3 = 123123123;
+	
+	
+	long long s4;
+	s4 = 13412312323123;
+	
+	
+	//ondalýklý sayýlar
+	float s5;
+	s5 = 125.425;
+	s5 = 125e2;
+	
+	double paraMiktari = 2820.75;
+	
+	
+	//Karakter veri tipi. Klavyede bulunan bütün tuþlar birer karakater
+	//temel karakterler ASCIIA KOD tablosunda belirtilmiþtir.
+	char harf1 = 'A';
+	char karakter2 = '<';
+	char karakter3 = '5';
+		char karakter4 = 65 ; //karakterin  ASCII kodunu atadým
+		//mantýksal veri tipi 
+		// karþýlaþtýrma ve mantýk iþlemlerinin soncunda  ortya çýkar
+		bool kosul1 = true; // true yerine 1 atanabilir 
+		bool kosul2 = false; //false yerine 0 da atana bilir
+		bool kosul3 = 1  //true anlamýnda
+		bool kosul4 = 0; //false anlamýnda
+	//Karakter 
+		string  adsoyad = "umut alacatlý";
+
+		//short ve long deðiþtiricileri 
+		short sayi1;
+		short int sayi2;
+	
+		long long sayi3;
+		long long int sayi4;
+		// signed, unsigned deðiþtiricileri
+		int sayi5;
+		signed int sayi6;
+		unsigned int sayi7; //iþaretsiz tamsayý , sadece pozitif sayýlarý tutabilir
+	
+	
+	
+	
+}
